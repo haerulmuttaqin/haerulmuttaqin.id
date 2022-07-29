@@ -23,7 +23,7 @@ export default function Home() {
                                 www.haerulmuttaqin.id{" "}
                             </span>
                             <span data-aos="fade-up" data-aos-once="false" data-aos-delay="700" className="navbar-text d-none d-sm-inline-block">
-                                hareul.muttaqin@gmail.com
+                                haerul.muttaqin@gmail.com
                             </span>
                         </nav>
                     </div>
@@ -57,6 +57,9 @@ export default function Home() {
                                 <i className="mdi mdi-twitter" />
                             </a>
                             <a href="mailto:hareul.muttaqin@gmail.com" className="social-link" target={'_blank'}>
+                                <i className="mdi mdi-email" />
+                            </a>
+                            <a href="https://g.dev/haerul" className="social-link" target={'_blank'}>
                                 <i className="mdi mdi-google" />
                             </a>
                         </nav>

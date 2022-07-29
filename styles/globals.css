@@ -59,12 +59,17 @@ p {
 
 .navbar-brand img {
     height: 31px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .navbar-dark {
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 50px;
+    height: 50px;
 }
 
 .navbar-dark .navbar-text {
@@ -72,11 +77,12 @@ p {
     opacity: 1;
     padding: 0 10px;
     border-right: 1px solid #ffffff;
-    font-size: 18px;
+    font-size: 0.9rem !important;
     font-weight: bold;
     text-align: center;
-    vertical-align: top;
-    margin-top: 20px;
+    /* vertical-align: center; */
+    vertical-align: middle;
+    /* margin-top: 20px; */
 }
 
 .navbar-dark .navbar-text:last-child {
